@@ -2,7 +2,7 @@ console.log("This is first project in java script");
 showNotes();
 let btn = document.getElementById('myBtn');
 btn.addEventListener('click', function (e){
-    console.log("button is working");
+//     console.log("button is working");
 
     let myText = document.getElementById('myText');
     let notes = localStorage.getItem('notes');
@@ -53,7 +53,7 @@ function showNotes(){
 
 function deleteNotes(index){
 
-console.log("deleted node",index);
+// console.log("deleted node",index);
 let notes = localStorage.getItem('notes');
 if (notes == null) {
     notesObj = [];
@@ -73,12 +73,12 @@ console.log(l);
 let search=document.getElementById('searchTxt');
 search.addEventListener('input',function () {
     let inputVal=search.value.toLowerCase();
-    console.log("search section fired",inputVal);
+//     console.log("search section fired",inputVal);
     let noteCard=document.getElementsByClassName('noteCard');
     Array.from(noteCard).forEach(function(element){
         let cardText=element.getElementsByTagName('p')[0];
           // here cardText is element we have to add innerHTML to get exact paragraph and it converted to lower case  string so that the comparision matched:
-       console.log(cardText);
+//        console.log(cardText);
        if(cardText.innerHTML.toLowerCase().includes(inputVal)){
            element.style.display="block";
        }
