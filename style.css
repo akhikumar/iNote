@@ -1,0 +1,20 @@
+
+ 
+ body{
+     background-image: url(/bg6.jpg);
+     
+     height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size:cover ;
+     background-position: center;
+     /* color: rgb(24, 141, 102); */
+     /* background-color: rgb(40, 160, 120); */
+      
+      /* display: inline-block; */
+      /* z-index: -2;  */
+      opacity: 1;
+ }  
+ .container h3{
+     text-align: center;
+ }
