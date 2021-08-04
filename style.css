@@ -1,20 +1,13 @@
-
- 
- body{
-     background-image: url(/iNote/bg6.jpg);
+#bg{
      
-     height: 100%;
-     width: 100%;
-     background-repeat: no-repeat;
-     background-size:cover ;
-     background-position: center;
-     /* color: rgb(24, 141, 102); */
-     /* background-color: rgb(40, 160, 120); */
-      
-      /* display: inline-block; */
-      /* z-index: -2;  */
-      opacity: 1;
- }  
+     background-color: rgba(10, 134, 93, 0.521);
+    
+     margin-top: -48px;
+}  
  .container h3{
+     text-align: center;
+   
+ }
+ footer p{
      text-align: center;
  }
