@@ -9,33 +9,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<!--     <link rel="stylesheet" href="/style.css"> -->
-  <style>
-      body{
-     background-image: url(/iNote/bg6.jpg);
-     
-     height: 100%;
-     width: 100%;
-     background-repeat: no-repeat;
-     background-size:cover ;
-     background-position: center;
-     /* color: rgb(24, 141, 102); */
-     /* background-color: rgb(40, 160, 120); */
-      
-      /* display: inline-block; */
-      /* z-index: -2;  */
-      opacity: 1;
- }  
- .container h3{
-     text-align: center;
- }
-    </style>
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Note-Magic</a>
+            <a class="navbar-brand" href="#">Akhi-Notes</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -44,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/iNote">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
 
 
@@ -59,10 +40,19 @@
     </nav>
     <div id="bg">
         <div class="container my-5">
-            <div class="card ">
+            <div class=" my-5">
+            <h2 >WELCOME TO MAGIC NOTE(TODO LIST)</h2>
+
+            </div>
+            <div class="card my-3">
 
                 <div class="card-body">
-                    <h5 class="card-title">Write Your Note</h5>
+                    <div class="mb-3">
+                        <h5 class="card-title">write title</h5>
+                        <input type="text" class="form-control" id="myTitle" aria-describedby="title">
+                        
+                      </div>
+                    <h5 class="card-title">Write  note</h5>
 
                     <textarea class="form-control" placeholder="write your note" id="myText"></textarea>
 
@@ -70,7 +60,6 @@
                 </div>
             </div>
         </div>
-
 
         <div class="container ">
             <hr>
@@ -80,13 +69,24 @@
         <div id="notes" class="container-fluid row ">
         </div>
     </div>
+    <div class="container">
+
+
+        <footer class="blog-footer">
+            <p>Note-magic template build for write note <a href="https://akhikumar.github.io/iNote/">Akhi-Note</a> by <a
+                    href="https://twitter.com/Akhiles03612681">@mdo</a>.</p>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-    <script src="/iNote/index.js"></script>
+    <script src="/index.js"></script>
 </body>
 
 </html>
